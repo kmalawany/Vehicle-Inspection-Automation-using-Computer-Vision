@@ -24,19 +24,19 @@ test_dir = 'D:\Graduation_project\Damage type not collected'
 
 
 train_datagen = tf.keras.preprocessing.image.ImageDataGenerator(
-                                                           rotation_range=40,
-                                                           width_shift_range=0.2,
-                                                           height_shift_range=0.2,
-                                                           shear_range=0.2, 
-                                                           zoom_range=0.2,
-                                                           horizontal_flip=True,
-                                                           fill_mode='nearest',
+                                                          rotation_range=40,
+                                                          width_shift_range=0.2,
+                                                          height_shift_range=0.2,
+                                                          shear_range=0.2, 
+                                                          zoom_range=0.2,
+                                                          horizontal_flip=True,
+                                                          fill_mode='nearest',
                                                           rescale=1./255,
                                                           validation_split=0.3)
 
 # val_datagen = tf.keras.preprocessing.image.ImageDataGenerator(validation_split=0.3)
 
-test_datagen = tf.keras.preprocessing.image.ImageDataGenerator(rescale=1./255,)
+test_datagen = tf.keras.preprocessing.image.ImageDataGenerator(rescale=1./255)
 
 
 train_set = train_datagen.flow_from_directory(train_dir,
@@ -141,12 +141,11 @@ def dense_block(units, rate, Lambda, inputs):
 
 
 def create_model():
-    model = tf.keras.applications.DenseNet169(input_shape=(150, 150, 3), include_top=False)
-    model.summary()
+    model = tf.keras.applications.VGG19(input_shape=(150, 150, 3), include_top=False)
     for layer in model.layers:
         layer.trainable = False
     
-    last_layer = model.get_layer('relu')
+    last_layer = model.get_layer('block5_pool')
   
     x = last_layer.output
 
