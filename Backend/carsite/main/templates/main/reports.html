@@ -1,0 +1,17 @@
+{% extends "main/base.html" %}
+{% block content %}
+    {% for report in Reports %}
+      {% ifequal report.driver|stringformat:"s" user.username %}
+        <article class="media content-section">
+          <div class="media-body">
+            <div class="article-metadata">
+              <a class="mr-2" href="#">{{ report.driver }}</a>
+              <small class="text-muted" href="#">{{ report.dateposted|date:"F D, Y" }}</small>
+            </div>
+            <h2><a class="article-title" href="#">{{ report.DamageInfo }}</a></h2>
+            <p class="article-content">{{ report.DamageInfo }}</p>
+          </div>
+        </article>
+      {% endifequal %}
+    {% endfor %}
+{% endblock content %}

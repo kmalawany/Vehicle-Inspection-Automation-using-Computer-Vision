@@ -1,0 +1,18 @@
+{% extends "main/base.html" %}
+{% block content %}
+    {% for report in Reports %}
+      {% ifequal report.username|stringformat:"s" user.username %}
+        <article class="media content-section">
+          <div class="media-body">
+            <div class="article-metadata">
+              <h2 class="mr-2" href="#">{{ report.username }}'s Reports</h2>
+            </div>
+            <p class="article-content">User Name: {{ report.username }}</p>
+            <p class="article-content">Car Model: {{ report.carmodels }}</p>
+            <p class="article-content">Car Side: {{ report.viewside }}</p>
+            <p class="article-content">Damage Position: {{ report.damageposition }}</p>
+          </div>
+        </article>
+      {% endifequal %}
+    {% endfor %}
+{% endblock content %}

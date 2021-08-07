@@ -1,0 +1,62 @@
+
+{% extends "main/base.html" %}
+{% block content %}
+
+<style>
+h1 {text-align: center;}
+p {text-align: center;font-size: 30px;}
+img {margin-right: 150px;}
+
+</style>
+        <table class="table">
+  <thead>
+    <tr>
+        <strong><p> Damage report </p></strong>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row"></th>
+      <td><strong> Image Type </strong></td>
+      <td><h5>{{model1}}</h5></td>
+
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td><strong>Car statues</strong></td>
+      <td><h5>{{model3}}</h5></td>
+
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td><strong>Car View</strong></td>
+      <td><h5>{{model2}}</h5></td>
+
+    </tr>
+
+    <tr>
+      <th scope="row"></th>
+      <td><strong>Damage type</strong></td>
+      <td><h5>{{model4}}</h5></td>
+
+    </tr>
+  <tr>
+      <th scope="row"></th>
+      <td><strong>Image</strong></td>
+      <td><div class="col-md-10">
+    <img src={{imgpath}} width="300" height="200">
+    </div>
+      </td>
+
+    </tr>
+
+  </tbody>
+</table>
+<form action="/ ">
+
+  <button class="btn btn-outline-info" type="submit" >Back</button>
+</form>
+
+
+
+{% endblock content %}

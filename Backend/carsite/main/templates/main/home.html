@@ -1,0 +1,15 @@
+
+{% extends "main/base.html" %}
+{% block content %}
+    {% for report in Reports %}
+        <article class="media content-section">
+          <div class="media-body">
+            <div class="article-metadata">
+              <a class="mr-2" href="#">{{ report.driver }}</a>
+            </div>
+            <h2><a class="article-title" href="#">{{ report.DamageInfo }}</a></h2>
+            <p class="article-content">{{ report.DamageInfo }}</p>
+          </div>
+        </article>
+    {% endfor %}
+{% endblock content %}
