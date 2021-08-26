@@ -2,7 +2,7 @@
 #### In this project a vehicle Inspection automated platform were proposed using state-of-the-art technologies such as Computer Vision & Deep Learning, to reduce vehicle inspection time from weeks to a few minutes. Data were collected by team members and four deep learning models were developed.
 
 <ul>
-<li>JThe dataset was manually collected using a webscrapper excpet for the first model where stanford car dataset and imagenet were used</li>
+<li>The dataset were manually collected using a webscrapper except for the first model where stanford car dataset and imagenet were used</li>
 <li>first model to check if the image is a car.
 </li>
 <li>second model to check if the car is damaged</li>
