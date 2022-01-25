@@ -13,5 +13,5 @@ light, glass, scratches and dents)</li>
 78.5, fourth model 81%</li>
 </ul>
 
-#### For more information aboout the project check the documentation
+#### For more information about the project check the documentation
 https://docs.google.com/document/d/1C_-HfwdbljFUeesBt5UdzEKBhLgVIEuu/edit?usp=sharing&ouid=109101354982855340451&rtpof=true&sd=true
