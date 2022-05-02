@@ -15,7 +15,7 @@ light, glass, scratches and dents)</li>
 </ul>
 
 ##### Damage report example
-![alt text](https://drive.google.com/file/d/13ZzhNhiPJu2IEesat92dS9goaniU2WAZ/view?usp=sharing)
+![alt text](https://drive.google.com/file/d/138eMLql_vmPl7g7giQPhN69qihLv9FLy/view?usp=sharing)
 
 ### For more information about the project check the documentation
 https://docs.google.com/document/d/1C_-HfwdbljFUeesBt5UdzEKBhLgVIEuu/edit?usp=sharing&ouid=109101354982855340451&rtpof=true&sd=true
