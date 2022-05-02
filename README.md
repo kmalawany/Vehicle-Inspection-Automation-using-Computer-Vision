@@ -14,8 +14,14 @@ light, glass, scratches and dents)</li>
   <li> The models were deployed using django framework</li>
 </ul>
 
-##### Damage report example
+#### Damage report example
 ![image](https://drive.google.com/uc?export=view&id=138eMLql_vmPl7g7giQPhN69qihLv9FLy)
+
+#### User sign up
+![image](https://drive.google.com/uc?export=view&id=16HvtnCg3DFJ2slLl6Xx9zzX4-GrFKpev)
+
+#### User log in
+![image](https://drive.google.com/uc?export=view&id=1t-RK0Qf5c04MIxIuOs8v0P5JnBY2rTu1)
 
 ### For more information about the project check the documentation
 https://docs.google.com/document/d/1C_-HfwdbljFUeesBt5UdzEKBhLgVIEuu/edit?usp=sharing&ouid=109101354982855340451&rtpof=true&sd=true
