@@ -14,7 +14,6 @@ light, glass, scratches and dents)</li>
   <li> The models were deployed using django framework</li>
 </ul>
 #### Models metrics
-![image](https://drive.google.com/uc?export=view&id=11g6NUHRJIYx7VzFRFZyCxarLyQgb3zIS)
 
 #### User main page
 ![image](https://drive.google.com/uc?export=view&id=1_ZHgMMsGj99638FTXmDscfBrZoDk5TcK)
