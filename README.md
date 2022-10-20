@@ -12,6 +12,9 @@ light, glass, scratches and dents)</li>
 <li>output: first model accuray 98%, second model 97.5%, third model
 78.5, fourth model 81%</li>
   <li> The models were deployed using django framework</li>
+  #### A paper were published for the development of the damage type classification model [Link text Here](https://link.springer.com/article/10.1007/s12652-022-04105-3?
+fbclid=IwAR118XWjZvEMTssieiJ9BYIQMIa3dZR1KUKXxpvFujqtM26kVtgIKIftgiM)
+
 </ul>
 
 #### Models metrics
