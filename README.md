@@ -13,6 +13,7 @@ light, glass, scratches and dents)</li>
 78.5, fourth model 81%</li>
   <li> The models were deployed using django framework</li>
 </ul>
+
 #### Models metrics
 ![image](https://drive.google.com/uc?export=view&id=11g6NUHRJIYx7VzFRFZyCxarLyQgb3zIS)
 
